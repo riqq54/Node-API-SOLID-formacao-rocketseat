@@ -10,3 +10,6 @@ prisma/generated
 
 # Build
 build
+
+#Coverage
+coverage
