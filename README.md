@@ -7,10 +7,10 @@ Aplicação parecida com o GymPass:
 - [X] Deve ser possível se cadastrar;
 - [X] Deve ser possível se autenticar;
 - [X] Deve ser possível obter o perfil de um usuário logado;
-- [ ] Deve ser possível se obter o número de check-ins realizados pelo usuário logado;
-- [ ] Deve ser possível o usuário obter seu histórico de check-ins;
-- [ ] Deve ser possível buscar academias próximas;
-- [ ] Deve ser possível buscar academias pelo nome;
+- [X] Deve ser possível se obter o número de check-ins realizados pelo usuário logado;
+- [X] Deve ser possível o usuário obter seu histórico de check-ins;
+- [ ] Deve ser possível buscar academias próximas (até 10 km);
+- [X] Deve ser possível buscar academias pelo nome;
 - [X] Deve ser possível realizar check-in em uma academia;
 - [ ] Deve ser possível validar o check-in de um usuário;
 - [X] Deve ser possível cadastrar uma academias;
@@ -28,6 +28,6 @@ Aplicação parecida com o GymPass:
 
 - [X] A senha do usuário precisa estar criptografada;
 - [X] Os dados da aplicação precisam persistir em um banco de dados PostgreSQL;
-- [ ] Todas as listas de dados precisam estar paginadas com 20 itens por páginas;
+- [X] Todas as listas de dados precisam estar paginadas com 20 itens por páginas;
 - [ ] O usuário deve ser identificado por um JWT (JSON Web Token);
 
