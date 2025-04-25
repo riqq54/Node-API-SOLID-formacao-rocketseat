@@ -9,10 +9,10 @@ Aplicação parecida com o GymPass:
 - [X] Deve ser possível obter o perfil de um usuário logado;
 - [X] Deve ser possível se obter o número de check-ins realizados pelo usuário logado;
 - [X] Deve ser possível o usuário obter seu histórico de check-ins;
-- [ ] Deve ser possível buscar academias próximas (até 10 km);
+- [X] Deve ser possível buscar academias próximas (até 10 km);
 - [X] Deve ser possível buscar academias pelo nome;
 - [X] Deve ser possível realizar check-in em uma academia;
-- [ ] Deve ser possível validar o check-in de um usuário;
+- [X] Deve ser possível validar o check-in de um usuário;
 - [X] Deve ser possível cadastrar uma academias;
 
 ## RN
@@ -20,7 +20,7 @@ Aplicação parecida com o GymPass:
 - [X] O usuário não pode se cadastrar com o e-mail duplicado;
 - [X] O usuário não pode fazer 2 check-ins no mesmo dia;
 - [X] O usuário não pode fazer check-in se não estiver perto (100m) da academia;
-- [ ] O check-in só pode ser validado até 20 minutos após ser criado;
+- [X] O check-in só pode ser validado até 20 minutos após ser criado;
 - [ ] O check-in só pode ser validado por administradores;
 - [ ] Academias só podem ser cadastradas por adminitradores;
 
