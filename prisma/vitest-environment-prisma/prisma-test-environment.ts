@@ -6,9 +6,6 @@ import { Environment } from "vitest/environments";
 
 
 function generateDatabaseUrl(schema: string){
-    if (!env.DATABASE_URL){
-        throw new Error('Please provide a DATABASE_URL env variable')
-    }
 
     const url = new URL(env.DATABASE_URL)
 
@@ -27,6 +24,7 @@ export default <Environment>{
         const databaseUrl = generateDatabaseUrl(schema)
 
         env.DATABASE_URL = databaseUrl
+        process.env.DATABASE_URL = databaseUrl
 
         execSync('npx prisma migrate deploy')
 

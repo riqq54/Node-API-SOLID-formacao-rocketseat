@@ -9,12 +9,13 @@ export default defineConfig({
             include:['src/**/*.{ts,spec.ts}']
         },
         dir: 'src',
+        env: loadEnv('',process.cwd(),''),
         workspace: [
             {
                 extends: true,
                 test: {
                     name: 'unit',
-                    dir: 'src/use-cases'
+                    dir: 'src/use-cases',
                 }
             },
             {
@@ -23,11 +24,6 @@ export default defineConfig({
                     name: 'e2e',
                     dir: 'src/http/controllers',
                     environment: './prisma/vitest-environment-prisma/prisma-test-environment.ts',
-                    env : {
-                        NODE_ENV: "test",
-                        PORT: "3333",
-                        DATABASE_URL: "postgresql://docker:docker@localhost:5432/apisolid?schema=public",
-                    }
                 }
             },
         ]
