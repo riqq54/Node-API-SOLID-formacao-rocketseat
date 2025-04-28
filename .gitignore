@@ -6,7 +6,6 @@ prisma/generated
 
 # Environment
 .env
-.env.test
 
 # Build
 build
