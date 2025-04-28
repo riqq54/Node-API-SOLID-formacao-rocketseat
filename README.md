@@ -21,8 +21,8 @@ Aplicação parecida com o GymPass:
 - [X] O usuário não pode fazer 2 check-ins no mesmo dia;
 - [X] O usuário não pode fazer check-in se não estiver perto (100m) da academia;
 - [X] O check-in só pode ser validado até 20 minutos após ser criado;
-- [ ] O check-in só pode ser validado por administradores;
-- [ ] Academias só podem ser cadastradas por adminitradores;
+- [X] O check-in só pode ser validado por administradores;
+- [X] Academias só podem ser cadastradas por adminitradores;
 
 ## RNF
 
