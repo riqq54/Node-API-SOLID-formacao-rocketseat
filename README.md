@@ -29,5 +29,5 @@ Aplicação parecida com o GymPass:
 - [X] A senha do usuário precisa estar criptografada;
 - [X] Os dados da aplicação precisam persistir em um banco de dados PostgreSQL;
 - [X] Todas as listas de dados precisam estar paginadas com 20 itens por páginas;
-- [ ] O usuário deve ser identificado por um JWT (JSON Web Token);
+- [X] O usuário deve ser identificado por um JWT (JSON Web Token);
 
